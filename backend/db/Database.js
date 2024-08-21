@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+const { parseConnectionUrl } = require("nodemailer/lib/shared");
 
 const connectDatabase = () => {
   mongoose
